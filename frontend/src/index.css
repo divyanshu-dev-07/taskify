@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f4f7fb;
+  color: #1e293b;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+html.dark body {
+  background: #020617;
+  color: #e2e8f0;
+}
+
+.Header {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+/* ✅ Custom animations yahan define karo */
+@theme {
+  --animate-orb1: moveOrb1 8s ease-in-out infinite;
+  --animate-orb2: moveOrb2 10s ease-in-out infinite;
+  --animate-orb3: moveOrb3 7s ease-in-out infinite;
+}
+
+/* ✅ Keyframes — orb 1 ka movement */
+@keyframes moveOrb1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(60px, 40px) scale(1.1); }
+  66% { transform: translate(20px, 80px) scale(0.9); }
+}
+
+/* ✅ Keyframes — orb 2 ka movement */
+@keyframes moveOrb2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-80px, -40px) scale(1.2); }
+}
+
+/* ✅ Keyframes — orb 3 ka movement */
+@keyframes moveOrb3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40% { transform: translate(-50px, 30px) scale(0.85); }
+  80% { transform: translate(30px, -20px) scale(1.1); }
+}
