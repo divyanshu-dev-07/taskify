@@ -1,4 +1,4 @@
-# ✨ Taskify — Organize Your Day
+# Taskify — Organize Your Day
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Plan+your+day.;Stay+focused.;Get+things+done+with+Taskify." alt="Taskify animated tagline" />
