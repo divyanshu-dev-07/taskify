@@ -1,63 +1,62 @@
-# Taskify — Smart To-Do Management App
+# Taskify — Organize Your Day
 
-A clean and modern task management application built to help users organize their daily tasks through a simple and intuitive interface.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Plan+your+day.;Stay+focused.;Get+things+done+with+Taskify." alt="Taskify animated tagline" />
+</p>
 
-## Overview
+<p align="center">
+  A simple and clean way to manage daily tasks.
+</p>
 
-Taskify is a full-stack web application built with React, Vite, and Express.js. It includes a dedicated frontend and backend, with API routes for authentication and task management.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-API-000000?logo=express&logoColor=white" alt="Express.js" />
+</p>
 
-## Tech Stack
+---
 
-**Frontend**
-- React
-- Vite
-- JavaScript
-- CSS
-- ESLint
+## 🚀 About Taskify
 
-**Backend**
-- Node.js
-- Express.js
-- MongoDB (if configured in the project)
-- REST API
+Taskify is a task management web application designed to make everyday planning easier. It provides a clean interface to organize tasks and manage your daily workflow.
 
-## Features
+## ✨ Features
 
-- User authentication with login and signup interfaces
-- Task management
-- Dashboard and task navigation
-- Responsive user interface
-- Theme management
-- Separate frontend and backend architecture
+- 📝 Task management
+- 🔐 Login and signup interface
+- 📋 Organized task dashboard
+- 🎨 Theme management
+- 📱 User-friendly interface
 
-*Note: Confirm each feature works in the current version before presenting it as production-ready.*
+## 🛠️ Built With
 
-## Project Structure
+| Technology | Purpose |
+|---|---|
+| React | User interface |
+| Vite | Frontend development and build |
+| Node.js | Backend runtime |
+| Express.js | Backend API |
+| MongoDB | Database, if configured |
+
+## 📂 Project Structure
 
 ```text
-TO-DO_MY_2/
+taskify/
 ├── backend/
 │   ├── config/
 │   ├── controllers/
 │   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── package.json
 │   └── server.js
 ├── frontend/
 │   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── vite.config.js
-├── .gitignore
+│   └── src/
 └── README.md
 ```
 
-## Getting Started
-
-### Prerequisites
-
-Install Node.js and npm. You will also need MongoDB if the backend uses MongoDB.
+## ⚙️ Getting Started
 
 ### 1. Clone the repository
 
@@ -73,31 +72,19 @@ cd backend
 npm install
 ```
 
-### 3. Configure environment variables
+Configure your environment variables in `backend/.env` using the variable names expected by your backend code.
 
-Create a `backend/.env` file using the variable names expected by your backend code.
+### 3. Start the backend
 
-Example only:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-```
-
-Never commit your actual `.env` file or credentials to GitHub.
-
-### 4. Start the backend
+Run the start command defined in `backend/package.json`, for example:
 
 ```bash
-npm run
+npm run dev
 ```
 
-Use the actual start script defined in `backend/package.json`, for example `npm start` or `npm run dev`.
+### 4. Start the frontend
 
-### 5. Install and start the frontend
-
-Open a separate terminal:
+Open another terminal:
 
 ```bash
 cd frontend
@@ -105,27 +92,22 @@ npm install
 npm run dev
 ```
 
-Open the local URL displayed by Vite in your terminal.
+Open the local URL displayed in your terminal.
 
-## Development Notes
+## 🔒 Security
 
-- Keep frontend and backend dependencies separate.
-- Store credentials in environment variables.
-- Keep `node_modules` and generated build files out of Git.
-- Configure the frontend API URL to match the running backend.
+- Keep database credentials and JWT secrets private.
+- Never commit `.env` files.
+- Keep dependencies and generated build files out of Git.
 
-## Future Improvements
-
-- Task due dates and reminders
-- Improved filtering and search
-- Deployment and automated testing
-
-## Author
+## 👨‍💻 Developer
 
 **Divyanshu**
 
-GitHub: [@divyanshu-dev-07](https://github.com/divyanshu-dev-07)
+[GitHub Profile](https://github.com/divyanshu-dev-07) · [Taskify Repository](https://github.com/divyanshu-dev-07/taskify)
 
 ---
 
-This project is being developed as a practical full-stack web development project.
+<p align="center">
+  Built with 💙 and a passion for learning and creating.
+</p>
