@@ -57,8 +57,8 @@ export default function AuthForm({ initialMode = "login" }) {
     try {
       const url =
         mode === "signup"
-          ? "http://localhost:5000/api/auth/register"
-          : "http://localhost:5000/api/auth/login";
+          ? "https://taskify-backend-el3h.onrender.com/api/auth/register"
+          : "https://taskify-backend-el3h.onrender.com/api/auth/login";
 
       const response = await fetch(url, {
         method: "POST",

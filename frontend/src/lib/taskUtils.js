@@ -1,4 +1,4 @@
-export const TASK_API = "http://localhost:5000/api/tasks";
+export const TASK_API = "https://taskify-backend-el3h.onrender.com/api/tasks";
 
 export const DEMO_TTL_MS = 30 * 60 * 1000;
 

@@ -68,7 +68,7 @@ function App() {
       setLoadingTasks(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/tasks",
+        "https://taskify-backend-el3h.onrender.com/api/tasks",
         {
           headers: {
             Authorization: `Bearer ${token}`,

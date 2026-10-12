@@ -42,7 +42,7 @@ function Inbox({ tasks, setTasks }) {
       );
 
       const response = await fetch(
-        "http://localhost:5000/api/tasks",
+        "https://taskify-backend-el3h.onrender.com/api/tasks",
         {
           method: "POST",
           headers: {
@@ -87,7 +87,7 @@ function Inbox({ tasks, setTasks }) {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/tasks/${_id}`,
+        `https://taskify-backend-el3h.onrender.com/api/tasks/${_id}`,
         {
           method: "PUT",
           headers: {
